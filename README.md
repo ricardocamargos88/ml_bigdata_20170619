@@ -20,4 +20,6 @@ Para a execução do processo de ETL é necessário a instalação das seguintes
 1) Biblioteca boto3;    
 2) mysql-connector;
 
+Também para a execução do processo, é necessário parametrizar os dados de acesso ao banco MySQL e ao AWS. Estes dados devem estar configurados no ambiente onde será executado.
+
 O processo, por ser público, tem por finalidade gerar arquivos CSV. Esses arquivos são de fácil manuseio para alimentar ferramentas de visualização de dados pois não requerem instalação de nenhum outro software.
